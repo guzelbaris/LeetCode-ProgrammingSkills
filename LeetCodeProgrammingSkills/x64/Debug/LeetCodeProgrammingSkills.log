@@ -1,4 +1,2 @@
-﻿  MergeStringsAlternately.cpp
-C:\Users\techn\projects\ProgrammingSkills\LeetCodeProgrammingSkills\LeetCodeProgrammingSkills\MergeStringsAlternately.cpp(5,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\techn\projects\ProgrammingSkills\LeetCodeProgrammingSkills\LeetCodeProgrammingSkills\MergeStringsAlternately.cpp(5,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  LeetCodeProgrammingSkills.vcxproj -> C:\Users\techn\projects\ProgrammingSkills\LeetCodeProgrammingSkills\x64\Debug\LeetCodeProgrammingSkills.exe
+﻿  LeetCodeProgrammingSkills.cpp
+  LeetCodeProgrammingSkills.vcxproj -> C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\x64\Debug\LeetCodeProgrammingSkills.exe

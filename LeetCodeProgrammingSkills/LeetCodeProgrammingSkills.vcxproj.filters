@@ -18,12 +18,12 @@
     <ClCompile Include="LeetCodeProgrammingSkills.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MergeStringsAlternately.cpp">
+    <ClCompile Include="AllSolutions.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MergeStringsAlternately.h">
+    <ClInclude Include="AllSolutions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

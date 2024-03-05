@@ -2,13 +2,16 @@
 //
 
 #include <iostream>
-#include "MergeStringsAlternately.h"
+#include "AllSolutions.h"
 using namespace std;
 
 int main()
 {
     Solution solution;
-    string word1 = "ab", word2 = "pqrs";
-    solution.mergeAlternately(word1, word2);
-    std::cout << solution.mergeAlternately(word1, word2);
+    vector<int> nums{9,9,9};
+    vector<int> result = solution.plusOne(nums);
+    for (int i = 0; i < result.size(); i++) {
+        cout << nums.at(i)<<" ";
+    }
+    
 }
