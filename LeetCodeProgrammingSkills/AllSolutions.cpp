@@ -121,3 +121,20 @@ vector<int> Solution::plusOne(vector<int>& digits) {
 	}
 	return digits;
 }
+
+int Solution::arraySign(vector<int>& nums) {
+	int sign = 1,i = 0;
+	for (i = 0; i < nums.size(); i++) {
+		sign = sign * nums.at(i);
+	}
+	if (sign > 0) {
+		sign = 1;
+	}
+	else if (sign < 0) {
+		sign = -1;
+	}
+	else {
+		sign = 0;
+	}
+	return sign;
+}

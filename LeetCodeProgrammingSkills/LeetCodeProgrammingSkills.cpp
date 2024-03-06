@@ -8,10 +8,8 @@ using namespace std;
 int main()
 {
     Solution solution;
-    vector<int> nums{9,9,9};
-    vector<int> result = solution.plusOne(nums);
-    for (int i = 0; i < result.size(); i++) {
-        cout << nums.at(i)<<" ";
-    }
+    vector<int> nums{ -1,-2,-3,-4,3,2,1 };
+    int c = solution.arraySign(nums);
+    return 0;
     
 }
