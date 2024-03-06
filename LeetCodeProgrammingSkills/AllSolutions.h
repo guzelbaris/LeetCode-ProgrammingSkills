@@ -12,4 +12,5 @@ public:
     bool repeatedSubstringPattern(string s);
     void moveZeroes(vector<int>& nums);
     vector<int> plusOne(vector<int>& digits);
+    int arraySign(vector<int>& nums);
 };
