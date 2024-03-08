@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     Solution solution;
-    vector<int> nums{ -1,-2,-3,-4,3,2,1 };
-    int c = solution.arraySign(nums);
+    vector<int> nums{ 3,5,1 };
+    int c = solution.canMakeArithmeticProgression(nums);
     return 0;
     
 }
