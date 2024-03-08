@@ -13,4 +13,6 @@ public:
     void moveZeroes(vector<int>& nums);
     vector<int> plusOne(vector<int>& digits);
     int arraySign(vector<int>& nums);
+    int maxFrequencyElements(vector<int>& nums);
+    bool canMakeArithmeticProgression(vector<int>& arr);
 };

@@ -138,3 +138,53 @@ int Solution::arraySign(vector<int>& nums) {
 	}
 	return sign;
 }
+
+int Solution::maxFrequencyElements(vector<int>& nums) {
+	std::vector<int> numCounter(100, 0); // Initialize counts for 0 to 99
+	int maxfreq = 0;
+
+	// Count occurrences of each number
+	for (int num : nums) {
+		numCounter[num % 100]++;
+		maxfreq = std::max(maxfreq, numCounter[num % 100]);
+	}
+
+	// Count total occurrences of numbers with maximum count
+	int totalCount = 0;
+	for (int count : numCounter) {
+		if (count == maxfreq) {
+			totalCount += count;
+		}
+	}
+
+	return totalCount;
+
+}
+bool Solution::canMakeArithmeticProgression(std::vector<int>& arr) {
+	bool result = true;
+
+	if (arr.size() > 2) {
+		for (size_t i = 0; i < arr.size(); i++) {
+			int min = arr[i];
+			size_t index = i;
+			for (size_t j = i + 1; j < arr.size(); j++) {
+				if (arr[j] < min) {
+					min = arr[j];
+					index = j;
+				}
+			}
+			std::swap(arr[i], arr[index]);
+		}
+
+		// Check if the elements form an arithmetic progression
+		int diff = arr[1] - arr[0];
+		for (size_t i = 2; i < arr.size(); i++) {
+			if (arr[i] - arr[i - 1] != diff) {
+				result = false;
+				break;
+			}
+		}
+	}
+
+	return result;
+}
