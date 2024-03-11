@@ -19,4 +19,5 @@ public:
     bool canMakeArithmeticProgression(vector<int>& arr);
     string customSortString(string order, string s);
     bool isMonotonic(vector<int>& nums);
+    int romanToInt(string s);
 };

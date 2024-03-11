@@ -9,7 +9,8 @@ int main()
 {
     Solution solution;
     vector<int> nums{ 1,3,2 };
-    bool c = solution.isMonotonic(nums);
+    string s = "III";
+    short c = solution.romanToInt(s);
     return 0;
     
 }
