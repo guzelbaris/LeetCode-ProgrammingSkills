@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     Solution solution;
-    vector<int> nums{ 3,5,1 };
-    int c = solution.canMakeArithmeticProgression(nums);
+    vector<int> nums{ 1,3,2 };
+    bool c = solution.isMonotonic(nums);
     return 0;
     
 }

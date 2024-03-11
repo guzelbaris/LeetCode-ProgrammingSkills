@@ -160,6 +160,7 @@ int Solution::maxFrequencyElements(vector<int>& nums) {
 	return totalCount;
 
 }
+
 bool Solution::canMakeArithmeticProgression(std::vector<int>& arr) {
 	bool result = true;
 
@@ -187,4 +188,42 @@ bool Solution::canMakeArithmeticProgression(std::vector<int>& arr) {
 	}
 
 	return result;
+}
+
+string Solution::customSortString(string order, string s) {
+	// Define the custom comparator as lambda
+	std::sort(s.begin(), s.end(), [order](char c1, char c2) {
+		return order.find(c1) < order.find(c2);
+		});
+
+	//note that [order](char c1, char c2) {return order.find(c1) < order.find(c2);} is a lambda expression 
+	return s;
+}
+
+bool Solution::isMonotonic(vector<int>& nums) {
+	/*
+	bool ascendingflag = false;
+	bool descendingflag = false;
+	if (nums.size() <= 2) {
+		return true;
+	}
+	else {
+		for (int i = 0; i < nums.size()-1; i++) {
+			if (nums.at(i) > nums.at(i+1)) {
+				ascendingflag = true;
+			}
+			else if (nums.at(i) < nums.at(i + 1)) {
+				descendingflag = true;
+			}
+
+		}
+		
+	}
+	if (!(ascendingflag && descendingflag)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+	*/
 }

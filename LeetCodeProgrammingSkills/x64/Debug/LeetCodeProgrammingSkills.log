@@ -3,4 +3,4 @@ C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\LeetCodePro
 C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\LeetCodeProgrammingSkills\AllSolutions.cpp(5,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\LeetCodeProgrammingSkills\AllSolutions.cpp(68,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\LeetCodeProgrammingSkills\AllSolutions.cpp(100,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  LeetCodeProgrammingSkills.vcxproj -> C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\x64\Debug\LeetCodeProgrammingSkills.exe
+C:\Users\techn\projects\ProgrammingSkills\LeetCode-ProgrammingSkills\LeetCodeProgrammingSkills\AllSolutions.cpp(207,3): error C2065: 'result': undeclared identifier

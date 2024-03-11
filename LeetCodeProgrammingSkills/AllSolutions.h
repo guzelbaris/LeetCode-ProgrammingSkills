@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 class Solution {
 public:
@@ -15,4 +17,6 @@ public:
     int arraySign(vector<int>& nums);
     int maxFrequencyElements(vector<int>& nums);
     bool canMakeArithmeticProgression(vector<int>& arr);
+    string customSortString(string order, string s);
+    bool isMonotonic(vector<int>& nums);
 };
