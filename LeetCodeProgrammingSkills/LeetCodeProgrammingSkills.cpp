@@ -9,8 +9,8 @@ int main()
 {
     Solution solution;
     vector<int> nums{ 1,3,2 };
-    string s = "III";
-    short c = solution.romanToInt(s);
+    string s = "Hello World";
+    short c = solution.lengthOfLastWord(s);
     return 0;
     
 }

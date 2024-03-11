@@ -290,3 +290,24 @@ int Solution::romanToInt(string s) {
 	}
 	return result;
 }
+
+int Solution::lengthOfLastWord(string s) {
+	short length = 0;
+	volatile bool spaceflag = false;
+	for (char c:s) {
+		if (c ==' ') {
+			spaceflag = true;
+		}
+		else {
+			if (spaceflag) {
+				length = 1;
+				spaceflag = false;
+			}
+			else {
+				length++;
+			}
+		}
+
+	}
+	return length;
+}

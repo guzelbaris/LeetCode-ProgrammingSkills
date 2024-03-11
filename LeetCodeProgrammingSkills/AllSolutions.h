@@ -20,4 +20,6 @@ public:
     string customSortString(string order, string s);
     bool isMonotonic(vector<int>& nums);
     int romanToInt(string s);
+
+    int lengthOfLastWord(string s);
 };
