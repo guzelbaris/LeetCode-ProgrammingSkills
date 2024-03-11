@@ -201,7 +201,7 @@ string Solution::customSortString(string order, string s) {
 }
 
 bool Solution::isMonotonic(vector<int>& nums) {
-	/*
+	
 	bool ascendingflag = false;
 	bool descendingflag = false;
 	if (nums.size() <= 2) {
@@ -225,5 +225,5 @@ bool Solution::isMonotonic(vector<int>& nums) {
 	else {
 		return false;
 	}
-	*/
+	
 }
